@@ -108,9 +108,7 @@ Or use uvicorn:
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
-- Interactive Swagger docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- Health Check: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
-
+-
 ---
 
 ## 🐳 Docker Deployment
@@ -120,4 +118,4 @@ To spin up the complete development environment including the FastAPI web app an
 ```bash
 docker-compose up --build
 ```
-The application will be accessible at `http://localhost:8000`.
+
